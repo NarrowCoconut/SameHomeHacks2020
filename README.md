@@ -12,7 +12,7 @@ You can use the [editor on GitHub](https://github.com/NarrowCoconut/SameHomeHack
         <link rel="stylesheet" href="Website/css/main.css"> 
     </head>
     <body>
-        
+        <a href="Website/index.html" title="test">TEST</a>
         <!-- Dummy Content -->
         <h2 style="text-align: center">Welcome to the BlackBoard WIP page</h2>
         
