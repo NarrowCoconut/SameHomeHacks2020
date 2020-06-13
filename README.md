@@ -6,7 +6,7 @@ You can use the [editor on GitHub](https://github.com/NarrowCoconut/SameHomeHack
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>BlackBoard Mockup</title>
         <meta name="Description" content="TODO">
-        <link rel="stylesheet" href="css/main.css"> 
+        <link rel="stylesheet" href="Website/css/main.css"> 
         
         <!-- Dummy Content -->
         <h2 style="text-align: center">Welcome to the BlackBoard WIP page</h2>
