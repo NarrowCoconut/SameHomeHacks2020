@@ -1,0 +1,38 @@
+TODO - - - - - - - - - - - 
+
+[] Create a Mimic Site Similar to BlackBoard
+       [] Sample
+       [] Sample
+       [] Sample
+
+[] Create A Sample project/assignment
+	[] Needs Date Due
+	[] Needs Assignment Requirements
+	[] Needs Download Link For PPT
+	[] Download Requirements Explanation Doc Link
+	[] A Submission Link?
+	[] Notes About Weeks expectations
+
+[] Create The Template
+[] Block Out The Site
+[] Decide Color Design
+[] Implement Color Sheet
+       [] Sample Text the site
+       [] DummyLinks
+       [] Sample
+       
+[] upload to github template and directory design
+       [X] finish todo
+       [...] Create a directory structure
+       [] decide and finish github implementation
+       
+
+[] Decide Site Name
+       [] .Online .Tech .Space
+       [] ImGladMyHomeworkIsAvaialable.Online
+       [] thisismystudy.space
+       [] Sample
+       [] Sample
+
+
+
