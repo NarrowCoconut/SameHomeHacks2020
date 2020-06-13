@@ -60,7 +60,7 @@ img {
 }
 
 
-/* ---------------- Start Grid Area ----------------*/
+/* ---------------- Main-Grid-Container Grid Area ----------------*/
 
 
 /* Outer Container Sections */
@@ -71,7 +71,7 @@ img {
 
 
 /* Primary Container for the site block-out*/
-.grid-container {
+.main-grid-container {
 
     display: grid;
     grid-template-areas: 
@@ -89,10 +89,36 @@ img {
     padding: 5px;
 }
 
-
-.grid-container > div {
+/* Clean up div settings */
+.main-grid-container > div {
   background-color: rgba(248, 248, 248, 1.0);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+}
 
+/* ---------------- Content Grid Area ----------------*/
+
+.listing1 {grid-area: ;}
+.listing2 {grid-area: ;}
+.listing3 {grid-area: ;}
+.listing4 {grid-area: ;}
+.listing5 {grid-area: ;}
+
+.content-grid-container {
+    display: grid;
+    grid-gap: 3px;
+    background-color: rgba(255, 255, 255, 1.0);
+
+}
+
+/* Clean up div settings */
+.content-grid-container > div {
+    background-color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+
+    /* Clean up padding */
+    padding: 20px 0;
+    font-size: 30px;
+}
+    
