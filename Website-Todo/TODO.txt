@@ -14,12 +14,12 @@ TODO - - - - - - - - - - -
 	[] Notes About Weeks expectations
 
 [] Create The Template
-[] Block Out The Site
-[] Decide Color Design
-[] Implement Color Sheet
-       [] Sample Text the site
-       [] DummyLinks
-       [] Sample
+	[] Block Out The Site
+	[] Decide Color Design
+	[] Implement Color Sheet
+	[] Sample Text the site
+	[] DummyLinks
+	[] Sample
        
 [] upload to github template and directory design
        [X] finish todo
