@@ -64,7 +64,9 @@ img {
 
 
 /* Outer Container Sections */
-.Header { grid-area: Header; }
+.Header { grid-area: Header; 
+    background-color: rgba(51, 51, 51, 1.0);
+}
 .LeftMenu { grid-area: LeftMenu; }
 .Main { grid-area: Main; }
 .Footer { grid-area: Footer;}
