@@ -109,6 +109,13 @@ img {
     display: grid;
     grid-gap: 3px;
     background-color: rgba(255, 255, 255, 1.0);
+    grid-template-areas: 
+        'listing1'
+        'listing2'
+        'listing3'
+        'listing4'
+        'listing5'
+        ;
 
 }
 
@@ -117,7 +124,7 @@ img {
     background-color: rgba(255, 255, 255, 1.0);
     text-align: center;
 
-    /* Clean up padding */
+    /* TODO Clean up padding */
     padding: 20px 0;
     font-size: 30px;
 }
