@@ -63,35 +63,35 @@ img {
 /* ---------------- Start Grid Area ----------------*/
 
 
-.item1 { grid-area: Header; }
-.item2 { grid-area: LeftMenu; }
-.item3 { grid-area: SectionOne; }
-.item4 { grid-area: SectionTwo; }
-.item5 { grid-area: SectionThree; }
-.item6 { grid-area: Footer;}
+/* Outer Container Sections */
+.Header { grid-area: Header; }
+.LeftMenu { grid-area: LeftMenu; }
+.Main { grid-area: Main; }
+.Footer { grid-area: Footer;}
 
 
 /* Primary Container for the site block-out*/
 .grid-container {
-    /*Template filling TODO CUSTOMIZE */ 
-    
+
     display: grid;
     grid-template-areas: 
         
         'Header Header Header Header Header'
-        'LeftMenu SectionOne SectionOne SectionOne SectionOne'
-        'LeftMenu SectionTwo SectionTwo SectionTwo SectionTwo'
-        'LeftMenu SectionThree SectionThree SectionThree SectionThree'
+        'LeftMenu Main Main Main Main'
+        'LeftMenu Main Main Main Main'
+        'LeftMenu Main Main Main Main'
         'Footer Footer Footer Footer Footer'
+        
         ;
-    grid-gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
+    
+    grid-gap: 3px;
+    background-color: rgba(238, 238, 238, 1.0);
+    padding: 5px;
 }
 
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(248, 248, 248, 1.0);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
