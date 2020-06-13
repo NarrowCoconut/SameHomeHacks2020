@@ -14,8 +14,9 @@ TODO - - - - - - - - - - -
 	[] Notes About Weeks expectations
 
 [...] Create The Template
-	[...] Block Out The Site
+	[X] Block Out The Site
 	[X] Decide Color Design
+	[...] Size out and format the grids
 	[] Implement Color Sheet
 	[] Sample Text the site
 	[] DummyLinks
