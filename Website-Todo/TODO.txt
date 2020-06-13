@@ -15,7 +15,7 @@ TODO - - - - - - - - - - -
 
 [...] Create The Template
 	[...] Block Out The Site
-	[] Decide Color Design
+	[X] Decide Color Design
 	[] Implement Color Sheet
 	[] Sample Text the site
 	[] DummyLinks
