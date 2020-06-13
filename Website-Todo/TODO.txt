@@ -13,21 +13,21 @@ TODO - - - - - - - - - - -
 	[] A Submission Link?
 	[] Notes About Weeks expectations
 
-[] Create The Template
-	[] Block Out The Site
+[...] Create The Template
+	[...] Block Out The Site
 	[] Decide Color Design
 	[] Implement Color Sheet
 	[] Sample Text the site
 	[] DummyLinks
 	[] Sample
        
-[] upload to github template and directory design
+[X] upload to github template and directory design
        [X] finish todo
-       [...] Create a directory structure
-       [] decide and finish github implementation
+       [X] Create a directory structure
+       [X] decide and finish github implementation
        
 
-[] Decide Site Name
+[...] Decide Site Name
        [] .Online .Tech .Space
        [] ImGladMyHomeworkIsAvaialable.Online
        [] thisismystudy.space
