@@ -57,10 +57,8 @@ img {
 
 
 /* Outer Container Sections */
-.Header { grid-area: Header; 
-    background-color: rgba(51, 51, 51, 1.0);
-}
-.LeftMenu { grid-area: LeftMenu; background-color: rgba(51,51,51,1.0);}
+.Header { grid-area: Header;  background-color: rgba(51,51,51,1.0); color: white;}
+.LeftMenu { grid-area: LeftMenu; background-color: rgba(51,51,51,1.0); color: white;}
 .Main { grid-area: Main; }
 .Footer { grid-area: Footer;}
 
@@ -86,7 +84,7 @@ img {
 
 /* Clean up div settings */
 .main-grid-container > div {
-  background-color: rgba(248, 248, 248, 1.0);
+
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
@@ -102,7 +100,7 @@ img {
 
 .content-grid-container {
     display: grid;
-    grid-gap: 3px; /* yiff test*/
+    grid-gap: 3px;
     background-color: rgba(255, 255, 255, 1.0);
     grid-template-areas: 
         'listing1'
@@ -117,7 +115,7 @@ img {
 /* Clean up div settings */
 .content-grid-container > div {
     background-color: rgba(255, 255, 255, 1.0);
-    text-align: center;
+    text-align: left;
 
     /* TODO Clean up padding */
     padding: 20px 0;
