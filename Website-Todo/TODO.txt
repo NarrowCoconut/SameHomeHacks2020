@@ -5,22 +5,22 @@ TODO - - - - - - - - - - -
        [] Sample
        [] Sample
 
-[] Create A Sample project/assignment
+[...] Create A Sample project/assignment
 	[] Needs Date Due
-	[] Needs Assignment Requirements
-	[] Needs Download Link For PPT
-	[] Download Requirements Explanation Doc Link
-	[] A Submission Link?
-	[] Notes About Weeks expectations
+	[X] Needs Assignment Requirements
+	[...] Needs Download Link For PPT
+	[...] Download Requirements Explanation Doc Link
+	[X] A Submission Link?
+	[X] Notes About Weeks expectations
 
-[...] Create The Template
+[X] Create The Template
 	[X] Block Out The Site
 	[X] Decide Color Design
-	[...] Size out and format the grids
-	[] Implement Color Sheet
-	[] Sample Text the site
-	[] DummyLinks
-	[] Sample
+	[X] Size out and format the grids
+	[X] Implement Color Sheet
+	[X] Sample Text the site
+	[X] DummyLinks
+	[X] Sample
        
 [X] upload to github template and directory design
        [X] finish todo

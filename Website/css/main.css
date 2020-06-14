@@ -57,7 +57,7 @@ img {
 
 
 /* Outer Container Sections */
-.Header { grid-area: Header;  background-color: rgba(51,51,51,1.0); color: white;}
+.Header { grid-area: Header;  background-color: rgba(51,51,51,1.0); color: white; }
 .LeftMenu { grid-area: LeftMenu; background-color: rgba(51,51,51,1.0); color: white;}
 .Main { grid-area: Main; }
 .Footer { grid-area: Footer;}
