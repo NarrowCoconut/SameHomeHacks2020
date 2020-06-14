@@ -1,39 +1,43 @@
 TODO - - - - - - - - - - - 
 
-[] Create a Mimic Site Similar to BlackBoard
-       [] Sample
-       [] Sample
+[...] Implement UIPath
+       [...] Scrape and gather data
+       [] verify data can be read
        [] Sample
 
-[...] Create A Sample project/assignment
-	[] Needs Date Due
-	[X] Needs Assignment Requirements
-	[...] Needs Download Link For PPT
-	[...] Download Requirements Explanation Doc Link
-	[X] A Submission Link?
-	[X] Notes About Weeks expectations
 
-[X] Create The Template
-	[X] Block Out The Site
-	[X] Decide Color Design
-	[X] Size out and format the grids
-	[X] Implement Color Sheet
-	[X] Sample Text the site
-	[X] DummyLinks
-	[X] Sample
+[X] Create a Mimic Site Similar to BlackBoard
+
+
+	[X] Create A Sample project/assignment
+		[] Needs Date Due
+		[X] Needs Assignment Requirements
+		[X] Needs Download Link For PPT
+		[X] Download Requirements Explanation Doc Link
+		[X] A Submission Link?
+		[X] Notes About Weeks expectations
+	
+	[X] Create The Template
+		[X] Block Out The Site
+		[X] Decide Color Design
+		[X] Size out and format the grids
+		[X] Implement Color Sheet
+		[X] Sample Text the site
+		[X] DummyLinks
+		[X] Sample
        
-[X] upload to github template and directory design
-       [X] finish todo
-       [X] Create a directory structure
-       [X] decide and finish github implementation
+	[X] upload to github template and directory design
+		[X] finish todo
+		[X] Create a directory structure
+		[X] decide and finish github implementation
        
 
-[...] Decide Site Name
-       [] .Online .Tech .Space
-       [] ImGladMyHomeworkIsAvaialable.Online
-       [] thisismystudy.space
-       [] Sample
-       [] Sample
+	[...] Decide Site Name
+		[] .Online .Tech .Space
+		[] ImGladMyHomeworkIsAvaialable.Online
+		[] thisismystudy.space
+		[] Sample
+		[] Sample
 
 
 

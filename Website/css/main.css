@@ -79,7 +79,7 @@ img {
     
     grid-gap: 3px;
     background-color: rgba(238, 238, 238, 1.0);
-    padding: 5px;
+    
 
 }
 
@@ -93,7 +93,7 @@ img {
 
 /* ---------------- Content Grid Area ----------------*/
 
-.listing1 {grid-area: listing1;}
+.listing1 {grid-area: listing1; }
 .listing2 {grid-area: listing2;}
 .listing3 {grid-area: listing3;}
 .listing4 {grid-area: listing4;}
@@ -110,6 +110,7 @@ img {
         'listing4'
         'listing5'
         ;
+    padding: 10px;
 
 
 
@@ -124,4 +125,31 @@ img {
     padding: 20px 0;
     font-size: 30px;
 }
+
+
+/* ---------------- button update ----------------*/
+
+.buttons-list {
+
+    list-style-type: none;
+    margin: 0;
+    padding-left: 40px;
+    width: 200px;
+    text-decoration: none;
+
+
+}
+
+
     
+.button a {
+  display: block;
+  color: #ffff;
+  padding: 8px 16px;
+  text-decoration: none;
+    
+}
+
+.button a:hover {
+
+  color: #c56fd5;
