@@ -1,0 +1,191 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1207,2486" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:uasb="clr-namespace:UiPath.Activities.System.Binding;assembly=UiPath.System.Activities" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="48">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Activities.System.Binding</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Word</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Mail</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="38">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <ueab:SequenceX sap:VirtualizedContainerService.HintSize="508,2421" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+    <ueab:SequenceX.Variables>
+      <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;Project_Notebook.xlsx&quot;,visible:=True,autoSave:=False,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="Notes" />
+      <Variable x:TypeArguments="uasb:BindingsRepository" Default="[new UiPath.Activities.System.Binding.BindingsRepository()]" Name="Saved" />
+    </ueab:SequenceX.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard CloseMode="{x:Null}" OpenMode="{x:Null}" DisplayName="Use Browser Chrome: Welcome to GitHub Pages | SameHomeHacks2020" sap:VirtualizedContainerService.HintSize="466,2331" sap2010:WorkflowViewState.IdRef="NApplicationCard_3">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="454,2116" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Lesson 01'" sap:VirtualizedContainerService.HintSize="412,165" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://narrowcoconut.github.io/SameHomeHacks2020/" DesignTimeRectangle="468, 413, 74, 17" ElementType="Text" FriendlyName="'Lesson 01'" FullSelectorArgument="&lt;html app='chrome.exe' title='Welcome to GitHub Pages | SameHomeHacks2020' /&gt;&lt;webctrl aaname='Lesson 01' parentid='main_content' tag='A' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='Welcome to GitHub Pages | SameHomeHacks2020' /&gt;&lt;webctrl aaname='Lesson 01' parentid='main_content' tag='A' type='' check:text='Lesson 01' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE4AAAAVCAYAAADo49gpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAnbSURBVFhHjVjLlhTHEe0jY3thvBAMr35Ud1V1V/U8mJ7ueUm8xsOAVrIAs7aFvLORvfMx2lpIRrJ/ApAt/YGRJf2AgE9Aa+yfCN97I7Oqeug5eBEnqzIyIyNu3MjMqlan27WupGedTtf4rrbTsTal3X5FqPt/ZNHcRbJo7iJZNHeRvDI3xNftJZJe0pfwucO4Q+yKt5oXsIhzw3O02YoGo6Eoc8Ze59gRcnjeUbJo7iJZNHeRNOeIFL2ex0fA+qn1Bhkkty6eu8nAOoxZ8RMLx4N9UWpsAoCw21JHMChDDWOvgNd0RlmIErIBw54h1ztzo8AG+ucyGmTORmP+vAQ/OKY5P8yp7UEXx6CNoDG+JB1aPy+sPxzbAJLkpSXZSCAKUMU/EAa9voNbCfodQI+xJdCQgSQdyYgMYYEuJtbgNYLFuxw5JLLTO9SnLAUGs+3W702p5/O57qv64zPHw4ZsQeRfQ9RHkMUaB1xzBdpIYA1Gq5aW5yWDYg0gLgvIJCsVd5IBWAKaE1gX6aEjeO4DgONLNHrmdy+t9ed/WScYIfPoOB1wh+igO8IsJCEbiaifWT/lO5ysSiGTxEyyn62/u056jmdwmsfWy4n2m2uQCbGN5dYUr5YaaIGNGJxpY0sBVPbL7631MeIM8ua76+gHkKMV6wchoOkY/Ref2M8+/t7aeBdDuQZtIiktLijqIhPnfk/gnlgPz0RdzmjxvmdUDtOJUnM8W8uYC2FmQr/euVA1Di0ySTZrTMxiHM8xeE6yYDvOC+NkD+I2yAjvj+tTnB30mcxgqXkCEiST9gbFagDthZ3Z27bh+R3L33uq99OXpjYoJwBrYgNIvjK1fPWRnRC4T629vCF8uH5kXUvZwMJEuH0XA+89saRcV19P9U92QACinOZY0DxbnkA2LIdky8gO5mdYlItLt7LhWQslMSghLI0Rn5HhoKvKBnoygg5yXDb2MVmQFO9uh2PD+liDPlA4luCotJgEACbQ6DNYlI3/YqfvIb4PH9to8hbkbRuu71rnQ/TdfQSgZrA3Q7tpmQAlaJRn1kEf7dOuqsWBQ5nSMBZ34L62Pp5F2+AAmZdoU12BAWTl1y8ahl/aiRvM4LZla94ObzQXdpvJ8tRSZDJjNuccc30/6OjHcHVqHfrSGHPivS0PCpKvORtO3HhsJxtjWncfClT3HQxE4gdItNi2/FBzTt7cFWijDQAHAIc3n2HuU+vA92wVvgffjr//wNI7jPOZdRkbEsXK0BaBCmzJuAzXwCVjUBMMYDnEDTMRKyfWF2gv7NzVi1bMLltx8I0d50J3PrNiA3236Aj0+xfh3AU491c7w0zffWw5HMhvuP7sHpymfj3owQTqR+c/9Xc6TGaAFSMFx6ARMJmy8UUADHawzpB9Ycyb75J9YGVIPPeujAzVfsV1FwGH8r0C35h0lDCZOJpcaAC3I3yYjBo4MQ4nDcCqGIfMx8xx3+D+ovJceSiHj9/53MqtX1i5va82/4ALPLdkc88yLfbcerMrVmxegYMAcIrg1gni20H/zHrTy1YCeOqL2SW0l+aAP7t/Ae8XBD77kz/At4++tRw2i9k/bYl+fPA3rL+ndYrpZ3ZWCXqkEk5BBrGNwLHcL36NBHvCFgF3msCBcfkamL22gzFvWfa++9pBH4Hjyattqy5VAAeFyuPevwHczNnFrEG0OJzJVYJg0zWCdtXKnQMbbx9Yef07+zn7DxDEwbdiILO/dHsfQTEwAgRwppDAUOpP3aZuz5PA4AFClQSyGYAT9ALzytvPq7XHW1/aKdn3uQ7c5w4cmMuS174Zfcce/FrgLje2Asjw/K6lAbg2+4HHEcBhX+FGSeCIcFxcgoVpLJTDYvnBgRMQX4oRtQ4OXyVTACDYFRnTnNu+dtXGO/sOXMUsjgeAkAq460ya2ydwnhgwm8B9BFsEDht9dZjwoOFBcqkBHEATcJQKOIKGeSANW+7XAwGHUxWxp7DBUq2A48nZ1x43s24ALl0HTQN4pKhOGxjyveaFtd8B03au2Xj3ui3vgnFg35iZnwXgNvEM9pQAIgYpFk0RIEq4ZLDQj1nq21+JPdKDwcPf/uDPnB9AYevAPbc+5oy3vmoA5wDPMY4MQaA6sXFH8xh8m1niPhlYzG3AY/KTk3FmIJDiXt2ywW8CcOzXqerAdXAJd8YROCgduG8sBZVzbJD5mlOXIOag7nDfy+zUbbKDZYoWgRQhqATODMUoAMSAGDABVfmylC9DTwa5XiUKGb/DUgdjr6P8q5KsgaPEPW7IpGw6Y0/eIgAInqU3eVAfMmtgDk9BXoF4zcFzvno/6L8QcGQ+gVPMnIM4BwBY8yBknR+EOHFZfdy6eFgSuKpUBdy0Ai5jNrihwyGeMKx3PrMv1+YegtTh4IzigcGyipt/EphVbu5XQWfoi4eH9FuYT/0fqf/OhltMxN/tHEtOrCNIkW1kGIEmwxy4JQLHw0el96BinBIOIuhOyYMBLGJf3GqWfuVJLW55ks7gpGVFcZyuTBxPxgXgyDje43hH9I+CAYHDBRgbaLXHwfAi4b1mNAGbAKpv4A0dQePmDz1PSQenOR+n7BSO4iQtNiK48/qEIJJ9Mx4Ue9Yn2JWebAXQmD9CuRfTf4SyA2i4NozWAdx6Aziejth6VK64LfiXALYabEEjndq17ZM3cdqvATgApX1dpcqtqVGq3PMInO5x/LQDcF3cSxw4LKA7DLPH08xZ53cxlgOvBnxneXi5sdXmLdDCmInPKQFQ3Nh9LO3xyuF2BQJ0vJKU2BtLMhCg8J12dcpSpEc/ryuaT7AoXIslStB433NRdcRrBQEAGEOU4ZB7NPQF5rr/WF9+o6owR2BrbwTIK9yeeLr6SUtsyN6Kcfhe17cq72rHPvmP/Rjyk08PCfvvQ/AswTP7JI1xnCuJ4+KYOK7S/3deR2nqPzlCH2xGOYb3Y/CFfleC9x8FeeP+S3sDjFILYZ9iDLa0Hm3SDp59XmN87Ast+376p6cCrsMLsP5a4OOaXwa8epDafqqAnhIgj8xVJyxLQO+HhBTX6cWMOd0radqQ3vuinuwgK/i9SNEzGYPW+4NwbLDv38hHSNzbeI1iK0Gf2MQ13J7WRx/ZlGKsvo3ZEoco+n72+yDPAx0OPFX970eqT6s+Lnh9/oUo+GuFH9ureOcNnBPZQuL7IfFxruc3bd3XeA4S+1/V4xnS7K/0bBFEqnH1WJf5vn6OGFBW+mOCmPzDn39RoD8k7JNAr/Eayz82/MPDOfGnwdC4rfG3mk5V/WcTePxPhg96fZvWPzUlQFo/8vQMvST2131H673/tfogi8fgPfrzGpEdlNScsO8Iu1G3aHwvxZ6Gd/8rzn9x/Fnas/8BPj5/aooFAj4AAAAASUVORK5CYII=" InformativeScreenshot="5c2d2a27f58a977d4e5c98475a75a761.png" SearchSteps="FuzzySelector, Image" Text="Lesson 01" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="412,80" sap2010:WorkflowViewState.IdRef="Delay_3" />
+            <uix:NGetText DisplayName="Get Text 'Lab 01'" sap:VirtualizedContainerService.HintSize="412,165" sap2010:WorkflowViewState.IdRef="NGetText_1">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://narrowcoconut.github.io/SameHomeHacks2020/Website/Lesson01.html" DesignTimeRectangle="313, 371, 95, 33" FriendlyName="'Lab 01'" FullSelectorArgument="&lt;html app='chrome.exe' title='BlackBoard Mockup' /&gt;&lt;webctrl idx='1' tag='B' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='BlackBoard Mockup' /&gt;&lt;webctrl type='' tag='B' aaname='Lab 01' /&gt;" InformativeScreenshot="19f6edbd07ec2935c9eb82d618ef935c.png" SearchSteps="FuzzySelector" Text="Lab 01" TextMethod="AttributeText" TextSelector="&lt;webctrl type='' tag='B' /&gt;" />
+              </uix:NGetText.Target>
+              <uix:NGetText.Text>
+                <OutArgument x:TypeArguments="ue:ExcelValue">[Saved.Values(Of ExcelValue)("LessonName")]</OutArgument>
+              </uix:NGetText.Text>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'Every once'" sap:VirtualizedContainerService.HintSize="412,165" sap2010:WorkflowViewState.IdRef="NGetText_2">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://narrowcoconut.github.io/SameHomeHacks2020/Website/Lesson01.html" DesignTimeRectangle="313, 440, 1552, 45" ElementType="Text" FriendlyName="'Every once'" FullSelectorArgument="&lt;html app='chrome.exe' title='BlackBoard Mockup' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' idx='1' isleaf='1' tag='P' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='BlackBoard Mockup' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' type='' isleaf='1' tag='P' aaname=' Every once in a while, a student asks us &amp;quot;why are you running? why are you running?&amp;quot;  It&amp;apos;s a fair question.' /&gt;" InformativeScreenshot="5f618d468005cf537d8139f4c3dc2434.png" SearchSteps="FuzzySelector" Text="Every once in a while, a student asks us &quot;why are you running? why are you running?&quot;  It's a fair" TextMethod="AttributeText" TextSelector="&lt;webctrl type='' tag='P' /&gt;" />
+              </uix:NGetText.Target>
+              <uix:NGetText.Text>
+                <OutArgument x:TypeArguments="ue:ExcelValue">[Saved.Values(Of ExcelValue)("LessonDesc")]</OutArgument>
+              </uix:NGetText.Text>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'Lab01.pdf'" sap:VirtualizedContainerService.HintSize="412,165" sap2010:WorkflowViewState.IdRef="NGetText_3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://narrowcoconut.github.io/SameHomeHacks2020/Website/Lesson01.html" DesignTimeRectangle="274, 685, 133, 33" ElementType="Text" FriendlyName="'Lab01.pdf'" FullSelectorArgument="&lt;html app='chrome.exe' title='BlackBoard Mockup' /&gt;&lt;webctrl aaname='Lab01.pdf' tag='A' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='BlackBoard Mockup' /&gt;&lt;webctrl aaname='Lab01.pdf' tag='A' type='' /&gt;" InformativeScreenshot="f9840424b65d8ac6dd3b6b7b13e1dc9b.png" SearchSteps="FuzzySelector" Text="Lab01.pdf" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;" />
+              </uix:NGetText.Target>
+              <uix:NGetText.Text>
+                <OutArgument x:TypeArguments="ue:ExcelValue">[Saved.Values(Of ExcelValue)("Lab")]</OutArgument>
+              </uix:NGetText.Text>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'Lesson01.pdf'" sap:VirtualizedContainerService.HintSize="412,165" sap2010:WorkflowViewState.IdRef="NGetText_4">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://narrowcoconut.github.io/SameHomeHacks2020/Website/Lesson01.html" DesignTimeRectangle="316, 570, 180, 33" ElementType="Text" FriendlyName="'Lesson01.pdf'" FullSelectorArgument="&lt;html app='chrome.exe' title='BlackBoard Mockup' /&gt;&lt;webctrl aaname='Lesson01.pdf' tag='A' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='BlackBoard Mockup' /&gt;&lt;webctrl aaname='Lesson01.pdf' tag='A' type='' /&gt;" InformativeScreenshot="e0973bb20b34bd346562bf145ba9f652.png" SearchSteps="FuzzySelector" Text="Lesson01.pdf" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;" />
+              </uix:NGetText.Target>
+              <uix:NGetText.Text>
+                <OutArgument x:TypeArguments="ue:ExcelValue">[Saved.Values(Of ExcelValue)("Lesson")]</OutArgument>
+              </uix:NGetText.Text>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NGetText>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Lab01.pdf'" sap:VirtualizedContainerService.HintSize="412,165" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://narrowcoconut.github.io/SameHomeHacks2020/Website/Lesson01.html" DesignTimeRectangle="313, 594, 133, 33" ElementType="Text" FriendlyName="'Lab01.pdf'" FullSelectorArgument="&lt;html app='chrome.exe' title='BlackBoard Mockup' /&gt;&lt;webctrl aaname='Lab01.pdf' tag='A' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='BlackBoard Mockup' /&gt;&lt;webctrl aaname='Lab01.pdf' tag='A' type='' check:text='Lab01.pdf' /&gt;" ImageBase64="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" InformativeScreenshot="ef564014fb98cdeddb5513811d8e53ef.png" SearchSteps="FuzzySelector, Image" Text="Lab01.pdf" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Lesson01.pdf'" sap:VirtualizedContainerService.HintSize="412,165" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://narrowcoconut.github.io/SameHomeHacks2020/Website/Lesson01.html" DesignTimeRectangle="316, 570, 180, 33" ElementType="Text" FriendlyName="'Lesson01.pdf'" FullSelectorArgument="&lt;html app='chrome.exe' title='BlackBoard Mockup' /&gt;&lt;webctrl aaname='Lesson01.pdf' tag='A' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='BlackBoard Mockup' /&gt;&lt;webctrl aaname='Lesson01.pdf' tag='A' type='' check:text='Lesson01.pdf' /&gt;" ImageBase64="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" InformativeScreenshot="e0973bb20b34bd346562bf145ba9f652.png" SearchSteps="FuzzySelector, Image" Text="Lesson01.pdf" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <ui:CreateDirectory ContinueOnError="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="412,78" sap2010:WorkflowViewState.IdRef="CreateDirectory_3" Path="[string.Format(&quot;E:\{0}&quot;, Saved.Values(Of ExcelValue)(&quot;LessonName&quot;))]">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:CreateDirectory>
+            <ui:MoveFile ContinueOnError="{x:Null}" Destination="[string.Format(&quot;E:\{0}&quot;, Saved.Values(Of ExcelValue)(&quot;LessonName&quot;))]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="412,156" sap2010:WorkflowViewState.IdRef="MoveFile_1" Overwrite="False" Path="[string.Format(&quot;C:\Users\dusti\Downloads\{0}&quot;, Saved.Values(Of ExcelValue)(&quot;Lab&quot;))]">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:MoveFile>
+            <ui:MoveFile ContinueOnError="{x:Null}" Destination="[string.Format(&quot;E:\{0}&quot;, Saved.Values(Of ExcelValue)(&quot;LessonName&quot;))]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="412,156" sap2010:WorkflowViewState.IdRef="MoveFile_2" Overwrite="False" Path="[string.Format(&quot;C:\Users\dusti\Downloads\{0}&quot;, Saved.Values(Of ExcelValue)(&quot;Lesson&quot;))]">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:MoveFile>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp BrowserType="Chrome" IconBase64="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" InformativeScreenshot="7e669fe2ae5dbb647d2237548a6908b1.png" Selector="&lt;html app='chrome.exe' title='Welcome to GitHub Pages | SameHomeHacks2020'/&gt;" Url="https://narrowcoconut.github.io/SameHomeHacks2020/" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </ueab:SequenceX>
+</Activity>
