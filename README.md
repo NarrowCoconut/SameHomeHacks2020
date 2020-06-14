@@ -1,5 +1,4 @@
 ## Welcome to GitHub Pages
-tacocat
 You can use the [editor on GitHub](https://github.com/NarrowCoconut/SameHomeHacks2020/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 <html>
@@ -12,6 +11,6 @@ You can use the [editor on GitHub](https://github.com/NarrowCoconut/SameHomeHack
         <link rel="stylesheet" href="Website/css/main.css"> 
     </head>
     <body>
-        <a href="Website/index.html" title="test">Lessons</a>
+        <a href="Website/Lesson01.html" title="test">Lesson 01</a>
     </body>
 </html>
